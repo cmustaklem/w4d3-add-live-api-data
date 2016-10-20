@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.align-left img {
+  width: 100px;
+}
+
+.paddingTop {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+header {
+  background: white;
+}
+
+.card {
+  background: white;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.card .col-xs-6 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card span {
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  padding: 5px 5px 0 5px;
+  margin-bottom: -5px;
+}
+
+.itemSeller {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.navBar {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: #777777;
+}
+
+.toggleMenu {
+  border-top: 1px solid #E1E3DF;
+  border-bottom: 1px solid #E1E3DF;
+}
+
+main, footer {
+  background-color: #F5F5F1;
+}
+
+.previewImage {
+  height: 10vw;
+}
